@@ -1,0 +1,65 @@
+{
+    "items": [
+        {
+            "begin": "2020-08-01",
+            "einde": "2021-07-31",
+            "groep": {
+                "code": "VT4m",
+                "id": 7830,
+                "links": {
+                    "self": {
+                        "href": "/api/groepen/7830"
+                    }
+                },
+                "omschrijving": "4m"
+            },
+            "id": 43018,
+            "isHoofdAanmelding": true,
+            "lesperiode": {
+                "code": "2021",
+                "links": {
+                    "self": {
+                        "href": "/api/lesperioden/22"
+                    }
+                }
+            },
+            "links": {
+                "cijfers": {
+                    "href": "/api/aanmeldingen/43018/cijfers"
+                },
+                "mentoren": {
+                    "href": "/api/aanmeldingen/43018/mentoren"
+                },
+                "perioden": {
+                    "href": "/api/aanmeldingen/43018/cijfers/perioden"
+                },
+                "self": {
+                    "href": "/api/aanmeldingen/43018"
+                },
+                "vakken": {
+                    "href": "/api/aanmeldingen/43018/vakken"
+                }
+            },
+            "persoonlijkeMentor": null,
+            "profielen": [
+                {
+                    "code": "MVI",
+                    "links": {
+                        "self": {
+                            "href": "/api/profielen/3198"
+                        }
+                    }
+                }
+            ],
+            "studie": {
+                "code": "VG4",
+                "id": 862,
+                "links": {
+                    "self": {
+                        "href": "/api/studies/862"
+                    }
+                }
+            }
+        }
+    ]
+}
