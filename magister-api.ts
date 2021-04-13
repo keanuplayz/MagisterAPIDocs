@@ -14,8 +14,7 @@
  * @apiSuccess {String} apitoken Your API token.
  * @apiSuccess {String} personID Your User ID.
  *
- * @apiSuccessExample Success Response:
- *   HTTP/1.1 OK
+ * @apiSuccessExample {json} Success Response:
  *   {
  *     "apitoken": "<token>",
  *     "personID": "26650"
@@ -92,6 +91,9 @@
  *       }
  *     ]
  *   }
+ * 
+ * @apiError MissingToken The API token is missing.
+ * @apiError MissingArguments Arguments for the endpoint are missing. This error will appear if *any* of the three are missing.
  */
 
 /**
@@ -180,4 +182,6 @@
  *          }
  *      ]
  *  }
+ * @apiError MissingToken The API token is missing.
+ * @apiError MissingArguments Arguments for the endpoint are missing. This error will appear if *any* of the three are missing.
  */
