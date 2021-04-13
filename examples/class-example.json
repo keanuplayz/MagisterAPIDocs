@@ -1,0 +1,56 @@
+{
+  "Items": [
+    {
+      "Aantekening": null, 
+      "Afgerond": false, 
+      "Bijlagen": null, 
+      "Docenten": [
+        {
+          "Docentcode": "ku", 
+          "Id": 227, 
+          "Naam": "T.J.M. Kuijer"
+        }
+      ], 
+      "DuurtHeleDag": false, 
+      "Einde": "2021-04-13T07:35:00.0000000Z", 
+      "Groepen": null, 
+      "HeeftBijlagen": false, 
+      "HerhaalStatus": 0, 
+      "Herhaling": null, 
+      "Id": 6448117, 
+      "InfoType": 0, 
+      "Inhoud": null, 
+      "IsOnlineDeelname": false, 
+      "LesuurTotMet": 2, 
+      "LesuurVan": 2, 
+      "Links": [
+        {
+          "Href": "/api/personen/26650/afspraken/6448117", 
+          "Rel": "Self"
+        }, 
+        {
+          "Href": "/api/personen/26650/afspraken/6447810", 
+          "Rel": "Next"
+        }
+      ], 
+      "Lokalen": [
+        {
+          "Naam": "s426"
+        }
+      ], 
+      "Lokatie": "s426", 
+      "Omschrijving": "nsk2 - ku - vt4.nsk21", 
+      "OpdrachtId": 0, 
+      "Start": "2021-04-13T07:05:00.0000000Z", 
+      "Status": 1, 
+      "Type": 13, 
+      "Vakken": [
+        {
+          "Id": 80, 
+          "Naam": "natuur- en scheikunde II"
+        }
+      ], 
+      "WeergaveType": 0
+    }
+  ]
+}
