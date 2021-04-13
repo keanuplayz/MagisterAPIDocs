@@ -36,6 +36,8 @@
  * 
  * @apiUse scheduleRes
  * 
+ * @apiUse scheduleResParams
+ * 
  * @apiError MissingToken The API token is missing.
  * @apiError MissingArguments Arguments for the endpoint are missing. This error will appear if *any* of the three are missing.
  */
